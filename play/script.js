@@ -37,7 +37,7 @@ async function init() {
         phrase += e.key;
         if (phrase.includes("ikbenteake")) {
             phrase = '';
-            game.ezMode = true;
+            Game.ezMode = true;
             alert("ez mode voor teake enabled");
         }
     });
