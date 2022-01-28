@@ -86,14 +86,14 @@
                 <p>Your guess is 0 cm removed from your start location</p>
                 <p>You scored ∞ points</p>
             </div>
-            <div class="button next-round-button" onclick="game.nextRoundButton()">Next Round</div>
+            <div class="button next-round-button" onclick="Game.nextRoundButton()">Next Round</div>
             <div class="game-end-buttons">
-                <form class="high-score-form" onsubmit="game.uploadScore(event)">
+                <form class="high-score-form" onsubmit="Game.uploadScore(event)">
                     <p>Submit to scoreboard to see other high scores</p>
                     <input pattern=".{3,}" class="username-input" placeholder="Username" required title="3 characters minimum">
                     <input type="submit" value="Submit" class="button submit-button">
                 </form>
-                <div class="button play-again-button" onclick="game.playAgain();">Play Again</div>
+                <div class="button play-again-button" onclick="Game.playAgain();">Play Again</div>
                 <div class="button home-button" onclick="goHome()">Choose Another Map</div>
             </div>
         </div>
