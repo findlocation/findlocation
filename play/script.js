@@ -30,7 +30,7 @@ async function init() {
     }
 
     console.log("Map: ", map);
-   var game = new Game(geoMap, document.querySelector(".estimator"));
+    game = new Game(geoMap, document.querySelector(".estimator"));
 
     let phrase = "";
     document.addEventListener('keypress', e => {
