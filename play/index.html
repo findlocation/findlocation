@@ -41,6 +41,7 @@
     <div class="gamerule-selector">
         <h2>Rules</h2>
         <form>
+                 <input type="submit" class="button" value="Start Game" onclick="game.setRules(event)">
             <div class="radio-picker">
                 <p>Round count</p>
                 <input type="radio" name="round-count" value="1" id="1round">
@@ -73,7 +74,7 @@
                 <input type="checkbox" name="allowed" value="zoom" id="no" checked>
                 <label class="radio-choice" for="no">Zoom</label>
             </div>
-            <input type="submit" class="button" value="Start Game" onclick="game.setRules(event)"></input>
+       
         </form>
     </div>
     <div class="map-element"></div>
